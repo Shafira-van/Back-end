@@ -46,7 +46,7 @@
         <br>Contohnya, ketika Anda ingin nilai variabel host berbeda di kala pengembangan (development) dan produksi (production), Anda bisa membuat properti NODE_ENV pada process.env. Jadi, Anda bisa menentukan nilai host berdasarkan kondisi NODE_ENV.
         <br>![image](https://user-images.githubusercontent.com/85721388/225319170-74426f15-4da5-4bba-9a7e-910ed5be761c.png)
       - Untuk memberikan nilai pada properti process.env, kita dapat memberikannya ketika mengeksekusi berkas JavaScript. Caranya seperti ini:
-        <br>![image](https://user-images.githubusercontent.com/85721388/225320339-1253a3b1-e190-44fb-84bc-76d6830ee107.png)
+        <br>![image](https://user-images.githubusercontent.com/85721388/225365944-157199c0-3f54-4f9d-9cdf-21175947076e.png)
         <br>Nilai yang ada pada process.env hanya dapat diakses di dalam cakupan proses Node.js. Itu berarti, Anda tidak dapat menggunakan nilainya pada program lain seperti menampilkan nilainya melalui program echo.
         <br>![image](https://user-images.githubusercontent.com/85721388/225320463-dcc58afc-4176-4cd4-9495-973d5d8702db.png)
    - Mendapatkan informasi tentang penggunaan CPU ketika proses berjalan 
