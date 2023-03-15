@@ -56,19 +56,3 @@ cURL atau Client URL merupakan software berbasis command line yang dapat melakuk
   - d <JSON Content>: merupakan data yang dilampirkan pada request. Data ini berformat JSON dan memiliki informasi kopi apa yang ingin dipesan.
   - https://coffee-api.dicoding.dev/transactions: merupakan alamat request yang dituju untuk membeli kopi.
   <br>![image](https://user-images.githubusercontent.com/85721388/225290135-1751d024-60b8-4ba7-bdcd-f861ee2e35cb.png)
-  
-### REST Web Service
-- REST atau REpresentational State Transfer adalah salah satu gaya arsitektur yang dapat diadaptasi ketika membangun web service.
-- REST menggunakan pola request-response dalam berinteraksi, artinya ia memanfaatkan protokol HTTP
-- Arsitektur REST benar-benar memisahkan peran client dan server, bahkan keduanya tidak harus saling mengetahui.
- 
-#### REST API
-- REST juga merupakan API (application program interface) karena ia digunakan untuk menjembatani antara sistem yang berbeda (client dan server).
-- API atau Application Program Interface merupakan antarmuka yang menjadi perantara antara sistem aplikasi yang berbeda. API tak hanya dalam bentuk Web Service, bisa saja berupa SDK (Software Development Kit) ataupun lainnya.
-
-##### Berikut beberapa sifat yang menjadi kunci pada REST API:
-- Client-Server: Ini merupakan hal yang paling mendasar dalam membangun REST API. Server harus bisa merespons permintaan yang dilakukan client, baik itu respons berhasil maupun gagal. Komunikasi client dan server dilakukan melalui protokol HTTP.
-- Stateless: REST API tidak boleh menyimpan keadaan (state) apa pun terkait client. Seluruh state harus tetap disimpan di client. Artinya, tidak ada session di REST API. Permintaan yang dilakukan client harus mengandung informasi yang jelas. Jangan berharap RESTful API akan menyimpan informasi dari permintaan sebelumnya untuk digunakan di permintaan selanjutnya.
-- Cacheable: Agar dapat merespons permintaan dengan cepat, sebaiknya REST API menerapkan prinsip cache sehingga setiap permintaan tidak melulu mengambil dari database.
-- Layered: Ketika REST API server memiliki arsitektur yang kompleks, client seharusnya tidak perlu tahu bagaimana server melayaninya.
-
