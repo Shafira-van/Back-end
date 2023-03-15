@@ -62,6 +62,11 @@
         - Element keempat: “potter”
           ![image](https://user-images.githubusercontent.com/85721388/225330776-a0dee148-bde4-4336-9bc7-90b16beaa866.png)
           Output ![image](https://user-images.githubusercontent.com/85721388/225330975-59380c29-6a2f-4f2a-af87-0638d5c6185c.png)
+          
+## Latihan
+![image](https://user-images.githubusercontent.com/85721388/225366672-8f6b5bd0-ef05-4492-aed0-c6ad18f7add0.png)
+Output
+<br>![image](https://user-images.githubusercontent.com/85721388/225366791-2a150307-6961-4cce-80b4-55f63de75fef.png)
 
  
 
