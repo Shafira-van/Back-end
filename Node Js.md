@@ -60,6 +60,10 @@
         - Element kedua: Alamat (path) berkas JavaScript yang dieksekusi (app.js) 
         - Element ketiga: “harry”
         - Element keempat: “potter”
+          ![image](https://user-images.githubusercontent.com/85721388/225330776-a0dee148-bde4-4336-9bc7-90b16beaa866.png)
+          Output ![image](https://user-images.githubusercontent.com/85721388/225330975-59380c29-6a2f-4f2a-af87-0638d5c6185c.png)
+
+ 
 
   
    
