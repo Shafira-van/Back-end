@@ -63,10 +63,32 @@
           ![image](https://user-images.githubusercontent.com/85721388/225330776-a0dee148-bde4-4336-9bc7-90b16beaa866.png)
           Output ![image](https://user-images.githubusercontent.com/85721388/225330975-59380c29-6a2f-4f2a-af87-0638d5c6185c.png)
           
-## Latihan
+### Latihan
 ![image](https://user-images.githubusercontent.com/85721388/225366672-8f6b5bd0-ef05-4492-aed0-c6ad18f7add0.png)
 Output
 <br>![image](https://user-images.githubusercontent.com/85721388/225366791-2a150307-6961-4cce-80b4-55f63de75fef.png)
+
+## Node Package Manager
+- Node Package Manager (NPM) merupakan pengelola package untuk JavaScript yang dapat memudahkan kita dalam mengelola package yang tersedia pada https://www.npmjs.com/.
+-  NPM juga bisa berfungsi sebagai runner script
+   <br> ![image](https://user-images.githubusercontent.com/85721388/225513016-3e0c1af6-a5c2-461e-bdbc-5951cf28803a.png)
+   <br> cara menjalankan
+   <br> ![image](https://user-images.githubusercontent.com/85721388/225513035-242c3e7a-b2a8-43af-b330-c2e176617664.png)
+
+  
+-  NPM dapat digunakan untuk memasang atau menghapus third party module (modul pihak ketiga) 
+-  Modul yang dipasang melalui NPM akan disimpan pada folder node_modules.
+-  Dua tipe pemasangan module melalui NPM: 
+  - Bila dipasang secara global, module akan bersifat layaknya core module dan dapat digunakan di mana pun. 
+  - Bila dipasang secara lokal, module hanya dapat digunakan pada cakupan proyek Node.js saja.
+    - Package yang dipasang secara lokal melalui NPM akan tercatat di dalam berkas package.json pada objek dependencies 
+    - Pemasangan npm secara lokal di terminal 
+      <br>![image](https://user-images.githubusercontent.com/85721388/225512529-51a75da7-da9f-4581-acbf-cd438516dba2.png)
+      <br>contoh :
+      <br>![image](https://user-images.githubusercontent.com/85721388/225512587-2dbb43cd-f487-44a8-8c2f-e787e57a3439.png)
+    - Penghapusan npm secara lokal di terminal
+      <br> ![image](https://user-images.githubusercontent.com/85721388/225512837-0b258e93-b3cd-4e23-bd5c-f6f8ded9074d.png)
+
 
  
 
