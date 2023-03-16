@@ -22,3 +22,15 @@
   - Link referensi : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 # Response body
+- Di dalam body seharusnya tersimpan data utama (atau bisa kita sebut konten) 
+<br>![image](https://user-images.githubusercontent.com/85721388/225633278-31b2be1a-3412-4301-9138-36249e67bb17.png)
+
+
+- fungsi get 
+![image](https://user-images.githubusercontent.com/85721388/225630738-c5dcb464-909e-42cf-923e-0792f59d7b83.png)
+- fungsi delete
+![image](https://user-images.githubusercontent.com/85721388/225629084-85241159-9ca2-4045-b376-cf3c70066d2c.png)
+- fungsi save 
+![image](https://user-images.githubusercontent.com/85721388/225630644-c412c5da-5b1b-4da1-a3d1-cfd56ce0e2cf.png)
+
+
