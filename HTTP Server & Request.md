@@ -23,3 +23,28 @@
   <br>![image](https://user-images.githubusercontent.com/85721388/225535779-25c38eb0-308c-455d-9372-3cbf5d07af12.png)
 - Contoh 
   <br>![image](https://user-images.githubusercontent.com/85721388/225536476-ca88e66d-f5f6-46e2-ba91-37f37523415a.png)
+  
+# Body Request
+- Ketika client melakukan permintaan dengan method POST atau PUT, biasanya permintaan tersebut memiliki sebuah data yang disimpan pada body request. 
+- Data pada body bisa berupa format teks, JSON, berkas gambar, atau format lainnya. 
+- Data tersebut nantinya digunakan oleh server untuk diproses di database atau disimpan dalam bentuk objek utuh.
+- Contoh
+  <br> ![image](https://user-images.githubusercontent.com/85721388/225540996-14f2382d-b7bd-4afd-9079-7ac93c40e043.png)
+  - Pertama, kita deklarasikan variabel body dan inisialisasikan nilainya dengan array kosong. Ini berfungsi untuk menampung buffer pada stream. 
+  - Lalu, ketika event data terjadi pada request, kita isi array body dengan chunk (potongan data) yang dibawa callback function pada event tersebut.
+  - Terakhir, ketika proses stream berakhir, maka event end akan terbangkitkan. Di sinilah kita mengubah variabel body yang sebelumnya menampung buffer menjadi data sebenarnya dalam bentuk string melalui perintah Buffer.concat(body).toString().   
+- Latihan
+  <br> ![image](https://user-images.githubusercontent.com/85721388/225542480-12ca2ab5-f295-47d8-b58e-3dc81e07b47f.png)
+  <br> curl -X POST -H "Content-Type: application/json" http://localhost:5000 -d "{\"name\": \"Dicoding\"}"
+  
+# Routing Request
+- Routing merupakan istilah dalam menentukan respons server berdasarkan path atau URL yang diminta oleh client.
+- Contoh
+  <br>![image](https://user-images.githubusercontent.com/85721388/225544108-198ac942-c97e-4c74-a1b4-1faeda7433ad.png)
+  <br>![image](https://user-images.githubusercontent.com/85721388/225544185-3960db27-d28c-48e2-86ee-0cfc479161e2.png)
+- Latihan
+  <br>![image](https://user-images.githubusercontent.com/85721388/225548501-666b65a9-9240-437a-8925-350f6013b1c7.png)
+
+
+
+ 
